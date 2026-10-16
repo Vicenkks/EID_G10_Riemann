@@ -1,2 +1,2 @@
-.\src\media
-.\src\__pycache__
+.\src\media\*
+.\src\__pycache__\*
