@@ -55,3 +55,21 @@ EID_G10_Riemann/
 └── docs/                              # Documentación adicional
     ├── referencias.md                 # Fuentes matemáticas utilizadas
     └── declaracion_ia.md              # Declaración de uso de IA
+```
+---
+
+## Dependencias Esternas
+
+* FFmpeg y LaTeX (no instalables con pip):
+
+### Windows
+* FFmpeg: Descarga el zip desde [gyan.dev](https://www.gyan.dev/ffmpeg/builds/?spm=a2ty_o01.29997173.0.0.7e07c921CX8wvU), extráelo y agrega la carpeta bin a las Variables de Entorno (PATH).
+* LaTeX: Descarga e instala [MiKTeX](https://miktex.org/?spm=a2ty_o01.29997173.0.0.7e07c921CX8wvU).
+### MacOS
+Desde la terminal:
+* brew install ffmpeg
+* brew install --cask mactex
+### Linux
+Desde la terminal:
+* sudo apt update (Verificación)
+* sudo apt install ffmpeg texlive-full libpango1.0-dev libcairo2-dev
