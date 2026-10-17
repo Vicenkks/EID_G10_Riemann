@@ -20,8 +20,8 @@ fx = ejes.plot(
     )
 
 a, b = 0, PI
-n = 4
+n = 50
 dx = (b-a)/n
 avance = b/n
 
-valores_x = np.arange(0, PI+avance, avance)
+valores_x = np.arange(a, b+avance, avance)

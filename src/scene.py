@@ -47,7 +47,7 @@ class SumaRiemann(Scene):
         self.play(Create(ejes, run_time=4), Create(fx, run_time=4), FadeIn(labels, run_time= 10), FadeIn(a_label, run_time = 10), FadeIn(b_label, run_time = 10))
         self.play(Create(area, run_time=4))
         self.wait(3)
-        self.play(Create(rects, run_time=2))
+        self.play(Create(rects, rate_func=smooth, run_time=10))
         self.wait(20)
         self.play(FadeOut(a_label), FadeOut(b_label) ,FadeIn(puntos_x), Write(etiquetas_x), Write(etiquetas_p), FadeIn(lines))
         self.wait(5)
