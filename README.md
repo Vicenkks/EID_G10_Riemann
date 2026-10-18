@@ -39,7 +39,6 @@ Y explicar cómo estos elementos se relacionan con los términos de la sumatoria
 EID_G10_Riemann/
 │
 ├── README.md                          # Documentación principal del proyecto
-├── requirements.txt                   # Dependencias de Python
 ├── .gitignore                         # Archivos ignorados por Git
 │
 ├── src/                               # Código fuente principal
@@ -49,9 +48,8 @@ EID_G10_Riemann/
 │   └── utils.py                       # Funciones auxiliares
 │
 ├── media/                             # Archivos generados (no versionados)
-│   ├── videos/                        # Videos renderizados
-│   └── images/                        # Imágenes generadas
+│   ├── Tex/                       
+│   └── videos/                        # Videos renderizados                
 │
 └── docs/                              # Documentación adicional
-    ├── referencias.md                 # Fuentes matemáticas utilizadas
-    └── declaracion_ia.md              # Declaración de uso de IA
+    └── referencias.md                 # Fuentes matemáticas utilizadas    
