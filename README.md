@@ -48,7 +48,7 @@ EID_G10_Riemann/
 │   └── utils.py                       # Funciones auxiliares
 │
 ├── media/                             # Archivos generados (no versionados)
-│   ├── Tex\                        
+│   ├── Tex/                       
 │   └── videos/                        # Videos renderizados                
 │
 └── docs/                              # Documentación adicional
